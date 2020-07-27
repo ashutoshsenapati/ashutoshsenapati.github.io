@@ -1,0 +1,44 @@
+{
+    "articles": [
+        {
+            "title": "MERN Social Media App",
+            "description": "A simple social media application with users, posts, likes and comments - developed using React, Node, Express and MongoDB.",
+            "isPaper": false,
+            "published": true,
+            "url": "https://github.com/ashutoshsenapati/Social-Media-app",
+            "imgUrl": "/assets/images/Cover.jpg"
+        },
+        {
+            "title": "Google File System Replica",
+            "description": "In this project I try to emulate a file system and a set of clients accessing the files. You may require the knowledge of thread and/or socket programming and its APIs of the language you choose.",
+            "isPaper": false,
+            "published": true,
+            "url": "https://github.com/ashutoshsenapati/Mini-Google-File-system",
+            "imgUrl": "/assets/images/Cover.jpg"
+        },
+        {
+            "title": "Pathfinding Visualiser",
+            "description": "Demonstration of how algorithms like BFS, DFS, Dijikstra, A* etc algorithms work and how efficient they are in terms of Time Complexity",
+            "isPaper": false,
+            "published": true,
+            "url": "https://github.com/ashutoshsenapati/PathFinder",
+            "imgUrl": "/assets/images/Cover.jpg"
+        },
+        {
+            "title": "Stock Exchange Web Application",
+            "description": "A Stock Market Project created with 3 different servers with many features such as caching, authentication, security etc",
+            "isPaper": false,
+            "published": true,
+            "url": "https://github.com/ashutoshsenapati/Stock-Exchange---WebApp/tree/master/Atrade-Stock-Exchange-Web-Application-master",
+            "imgUrl": "/assets/images/Cover.jpg"
+        },
+        {
+            "title": "Multi Thread Implementation using C",
+            "description": "Here we have demonstrated that if we carry out the operation of multiplying two large operands using multi-threading it takes less time as compared to single threading method.",
+            "isPaper": false,
+            "published": true,
+            "url": "https://github.com/ashutoshsenapati/MultiThreadImplementation",
+            "imgUrl": "/assets/images/Cover.jpg"
+        }
+    ]
+}

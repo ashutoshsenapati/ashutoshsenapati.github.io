@@ -1,0 +1,133 @@
+.homeContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.primary {
+    width: 50%;
+}
+
+.titleName, .titleJob {
+    color: white;
+    font-family: 'Roboto';
+    margin: 0 6rem;
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+.titleJob {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 1rem 6rem;
+}
+.animate__bounce {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+}
+
+.infoText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.0rem;
+    font-weight: 300;
+    color: #c7c7c7;
+    margin: 10rem 10rem;
+    letter-spacing: 0.15em;
+}
+
+.infoText2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+  
+    color: rgb(47, 169, 190);
+    margin: 1rem 6rem;
+    letter-spacing: 0.2em;
+}
+
+.coloured {
+    color: rgb(47, 169, 190);
+    font-weight: 300;
+}
+
+.secondary {
+    width: 50%;
+}
+
+.avatarImg {
+    width: 200%;
+    margin: auto;
+}
+
+.avatarImg img {
+    border: 1.5rem dashed var(--text-secondary);
+    border-radius: 50%;
+}
+
+.primaryBtn {
+    color: rgb(47, 169, 190);
+    background-color: transparent;
+    border: 2px solid var(--text-title);
+    font-family: 'Aclonica', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: lowercase;
+    letter-spacing: 0.10em;
+    padding: 5px 20px;
+    margin: 5rem 10rem;
+    width: 35%;
+    transition: 300ms;
+}
+
+.primaryBtn:hover {
+    background-color: var(--text-secondary);
+    color: rgb(236, 212, 212);
+}
+
+@media only screen and (max-width: 600px) {
+    .homeContainer {
+        display: block;
+        overflow-y: scroll;
+    }
+    
+    .primary {
+        width: 100%;
+        padding: 20px 15px;
+    }
+
+    .secondary {
+        width: 100%;
+    }
+
+    .titleName, .titleJob {
+        margin: 1rem;
+        font-size: 2rem;
+        letter-spacing: 0.05em;
+    }
+    
+    .titleJob {
+        margin: 1rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    
+    .infoText {
+        font-size: 0.9rem;
+        margin: 4rem;
+    }
+    .infoText2 {
+        font-size: 1.0rem;
+        margin: 1rem;
+    }
+
+    .primaryBtn {
+        color: rgb(47, 169, 190);
+        display: none;
+    }
+    
+  }
